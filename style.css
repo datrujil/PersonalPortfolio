@@ -271,6 +271,81 @@ footer .socials i:hover{
     transform: scale(1.1);
 }
 
+.contact-container{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-container .contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-left-title h1{
+    font-weight: 600;
+    color: rgb(19, 50, 115);
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: rgb(19, 50, 115);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus{
+    border: 2px solid lightblue;
+}
+
+.contact-inputs::placeholder{
+    color: #a9a9a9;
+}
+
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(19, 50, 115);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-left button:hover{
+    background-color: lightblue;
+}
+
+.contact-right img{
+    width: 500px;
+}
+
 @keyframes growNShrink {
     0%
     {
@@ -314,4 +389,13 @@ footer .socials i:hover{
 
 .growNShrink {
     animation: growNShrink 6s ease-in-out infinite;
+}
+
+@media (max-width:800px){
+    .contact-inputs{
+        width: 80wh;
+    }
+    .contact-right{
+        display: none;
+    }
 }

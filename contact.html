@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <title>Works</title>
+    <title>Contact Page</title>
 </head>
 <body>
 
@@ -18,11 +18,35 @@
         <div class="nav-links">
             <a href="index.html">Home</a>
             <a href="works.html">Works</a>
-            <a class="selected" href="posts.html">Posts</a>
+            <a href="posts.html">Posts</a>
             <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+            <a class="selected" href="contact.html">Contact</a>
         </div>
     </nav>
+
+    <div class="contact-container">
+        <form action="" class="contact-left">
+            <div class="contact-left-title">
+                <h1>Get In Touch</h1>
+                <hr>
+            </div>
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit<i class='bx bx-send'></i></button>
+        </form>
+        <form action="" class="contact-right">
+            <img src="assets/Contact Form Image.jpeg" alt="Decorative Letter with Contact Form Inside">
+        </form>
+    </div>
+
+    <footer>
+        <div class="socials">
+            <i class='bx bxl-instagram-alt' ></i>
+            <i class='bx bxl-facebook-circle' ></i>
+            <i class='bx bxl-linkedin-square' ></i>
+        </div>
+    </footer>
 
 </body>
 </html>
