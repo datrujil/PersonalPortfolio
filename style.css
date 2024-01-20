@@ -287,7 +287,7 @@ footer .socials i:hover{
 
 .contact-left-title h1{
     font-weight: 600;
-    color: rgb(19, 50, 115);
+    color: crimson;
     font-size: 40px;
     margin-bottom: 5px;
 }
@@ -296,7 +296,7 @@ footer .socials i:hover{
     border: none;
     width: 120px;
     height: 5px;
-    background-color: rgb(19, 50, 115);
+    background-color: crimson;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -317,7 +317,7 @@ footer .socials i:hover{
 }
 
 .contact-inputs:focus{
-    border: 2px solid lightblue;
+    border: 2px solid crimson;
 }
 
 .contact-inputs::placeholder{
@@ -333,13 +333,13 @@ footer .socials i:hover{
     gap: 10px;
     border: none;
     border-radius: 50px;
-    background-color: rgb(19, 50, 115);
+    background-color: crimson;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .contact-left button:hover{
-    background-color: lightblue;
+    background-color: lightcoral;
 }
 
 .contact-right img{
