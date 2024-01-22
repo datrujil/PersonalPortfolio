@@ -377,10 +377,11 @@ footer .socials i:hover{
 }
 
 .content .post-list .post-item{
-    background-color: lightcoral;
+    background-color: crimson;
     padding: 24px;
     width: 960px;
     border-radius: 10px;
+    font-weight: 600;
 }
 
 .content .container img{
