@@ -9,6 +9,11 @@ It includes the following pages on a navigation bar:
 - About Page - Contains brief description of myself
 - Contact Page - Contains a contact form you can fill out and submit to reach out to me
 
+## Known Errors on Validation Files
+`valid-accessability*.jpeg`: Incorrectly identifies icons html code as italics and identifies that an h4 header can not come after an h1 header.
+
+`valid-css*.jpeg`: Incorrectly identifies that animation-timeline property does not exist. If I leave those lines off of my code, my scroll animations stop to work.
+
 ## Number of Assignment Points
 I believe I deserve 14 on points for this assignment.
 
@@ -48,8 +53,30 @@ Navigation Bar: Defined naviagtion section using "nav" tag along with navigation
 ```<footer>```: Footer section.
 
 ## Basic CSS Features Used
+1. Font Imports
+2. Global Reset of Values
+3. Link Styling
+4. Image Styling
+5. Navigation Styling
+6. Content Styling
+7. Media Query
 
+## Advanced Feature(s)
+1. Navigation Bar
+2. Contact Form
 
+## Project Time 
+1.5 Weeks
+
+## Online Resources Used
+- HTML: https://www.w3schools.com/html/
+- CSS: https://www.w3schools.com/css/
+- Navigation Bar: https://www.w3schools.com/css/css_navbar.asp
+- CSS Animations: https://www.w3schools.com/css/css3_animations.asp
+- Scroll Animations: https://developer.chrome.com/docs/css-ui/scroll-driven-animations
+- Icons: https://boxicons.com/
+- Fonts: https://fonts.google.com/
+- Contact Form API: https://web3forms.com/
 
 ### Technologies
 HTML, CSS, Web3Forms
