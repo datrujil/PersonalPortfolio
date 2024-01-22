@@ -1,14 +1,13 @@
 # PersonalPortfolio
 
-## What This Project Is
-This project is my personal portfolio, detailing what I do, what my goals are, as well as my projects.
-
 ## Brief Overview
-Home Page - Contains introduction, resume download, recent posts, and featured works
-Works Page - Contains all projects
-Posts Pafe - Contains all posts created
-About Page - Contains brief description of myself
-Contact Page - Contains a contact form you can fill out and submit to reach out to me
+This project is my personal portfolio, detailing what I do, what my goals are, as well as my projects.
+It includes the following pages on a navigation bar:
+- Home Page - Contains introduction, resume download, recent posts, and featured works
+- Works Page - Contains all projects
+- Posts Pafe - Contains all posts created
+- About Page - Contains brief description of myself
+- Contact Page - Contains a contact form you can fill out and submit to reach out to me
 
 ### Technologies
 HTML, CSS, Web3Forms
