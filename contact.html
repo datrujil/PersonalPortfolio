@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <title>Contact Page</title>
+    <title>Contact | Derek Trujillo</title>
 </head>
 <body>
 
@@ -25,18 +25,19 @@
     </nav>
 
     <div class="contact-container">
-        <form action="" class="contact-left">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
             <div class="contact-left-title">
                 <h1>Get In Touch</h1>
                 <hr>
             </div>
+            <input type="hidden" name="access_key" value="056c9169-f5fa-4ca7-9362-59c9f44583f3">
             <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
             <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
             <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
             <button type="submit">Submit<i class='bx bx-send'></i></button>
         </form>
         <form action="" class="contact-right">
-            <img src="assets/Contact Form Image.jpeg" alt="Decorative Letter with Contact Form Inside">
+            <img src="assets/ContactFormImage.webp" alt="Decorative Letter with Contact Form Inside">
         </form>
     </div>
 
