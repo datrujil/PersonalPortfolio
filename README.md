@@ -1,7 +1,7 @@
 # PersonalPortfolio
 
 ## Brief Overview
-This project is my personal portfolio, detailing what I do, what my goals are, as well as my projects.
+This project is my personal portfolio, detailing what I do, what my goals are, as well as my projects. My website does currently contain placeholders as I do not have a lot of personal projects created to fill in my works page. This catalog will grow further down the line. Additionally, JavaScript will be implemented later to create Single Work HTML pages that go into further detail of each project, though I haven't decided yet how I want those pages to look like.
 It includes the following pages on a navigation bar:
 - Home Page - Contains introduction, resume download, recent posts, and featured works
 - Works Page - Contains all projects
@@ -15,7 +15,7 @@ It includes the following pages on a navigation bar:
 `valid-css*.jpeg`: Incorrectly identifies that animation-timeline property does not exist. If I leave those lines off of my code, my scroll animations stop to work.
 
 ## Number of Assignment Points
-I believe I deserve 14 on points for this assignment.
+I believe I deserve 15 on points for this assignment.
 
 ## Basic HTML Features Used
 ```<!DOCTYPE html>```: This is the document type declaration, specifying that the document is an HTML5 document.
@@ -77,6 +77,9 @@ Navigation Bar: Defined naviagtion section using "nav" tag along with navigation
 - Icons: https://boxicons.com/
 - Fonts: https://fonts.google.com/
 - Contact Form API: https://web3forms.com/
+
+## Classmates Consulted
+N/A
 
 ### Technologies
 HTML, CSS, Web3Forms
