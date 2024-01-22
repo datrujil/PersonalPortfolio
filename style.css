@@ -177,6 +177,9 @@ nav .nav-links a.selected{
 }
 
 .featured{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 40px 290px 0;
     animation: fade-in-from-right linear;
     animation-timeline: view(block);
@@ -343,7 +346,57 @@ footer .socials i:hover{
 }
 
 .contact-right img{
-    width: 500px;
+    width: 800px;
+}
+
+.page-title{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.content .post-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content .container{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    gap: 20px;
+    width: 970px;
+    border-radius: 20px;
+    background-color: lightcoral;
+}
+
+.content .post-list .post-item{
+    background-color: lightcoral;
+    padding: 24px;
+    width: 960px;
+    border-radius: 10px;
+}
+
+.content .container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.content .container h2{
+    margin-bottom: 20px;
+}
+
+.content .container
+
+.content .container .about .email{
+    font-weight: bold;
 }
 
 @keyframes growNShrink {
