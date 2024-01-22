@@ -146,7 +146,7 @@ nav .nav-links a.selected{
     border-radius: 14px;
 }
 
-.recent .posts .post-item h3{
+.recent .posts .post-item h4{
     font-size: 26px;
     margin-bottom: 18px;
 }
@@ -447,7 +447,7 @@ footer .socials i:hover{
 
 @media (max-width:800px){
     .contact-inputs{
-        width: 80wh;
+        width: 80vh;
     }
     .contact-right{
         display: none;
